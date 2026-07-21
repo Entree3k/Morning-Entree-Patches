@@ -1,14 +1,13 @@
-group = "app.template"
+group = "morningentree.morphe"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
+        name = "Morning Entree Patches"
+        description = "Various patches for use with Morphe"
+        source = "git@github.com:Entree3k/Morning-Entree-Patches.git"
+        author = "Morning Entree"
         contact = "na"
-        website = "na"
+        website = "https://morphe.software"
         license = "GPLv3"
     }
 }
