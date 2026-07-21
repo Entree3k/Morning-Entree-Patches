@@ -57,4 +57,4 @@ you can follow the [Morphe documentation](https://github.com/MorpheApp/morphe-do
 
 ## 📜 License
 
-UserXYZ Patches are licensed under the [GNU General Public License v3.0](LICENSE)
+Morning Entreee Patches are licensed under the [GNU General Public License v3.0](LICENSE)
