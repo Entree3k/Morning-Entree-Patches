@@ -8,7 +8,7 @@ import morningentree.morphe.util.returnEarly
 @Suppress("unused")
 val enablePremiumPatch = bytecodePatch(
     name = "Enable Premium",
-    description = "Unlocks Sponge's premium features"
+    description = "Unlock Sponge Premium"
 ) {
     compatibleWith(
         Compatibility(
