@@ -11,7 +11,7 @@ TODO: Update this about section with a brief introduction/summary about this rep
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0-dev.1](https://github.com/Entree3k/Morning-Entree-Patches/releases/tag/v1.0.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
+> **[v1.0.0-dev.2](https://github.com/Entree3k/Morning-Entree-Patches/releases/tag/v1.0.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
 <details open>
 <summary>📦 Ling&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
@@ -38,7 +38,7 @@ TODO: Update this about section with a brief introduction/summary about this rep
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
-| [Enable Premium](#enable-premium) | Unlocks Sponge's premium features |  |
+| [Enable Premium](#enable-premium) | Unlock Sponge Premium |  |
 
 </details>
 
