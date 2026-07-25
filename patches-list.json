@@ -1,7 +1,33 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "patches": [
+    {
+      "name": "Enable Premium",
+      "description": "Unlock Lifesum Premium",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.sillens.shapeupclub",
+          "name": "Lifesum",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#41CD8C",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "20.8.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
     {
       "name": "Enable Premium",
       "description": "Unlocks Ling Pro",
