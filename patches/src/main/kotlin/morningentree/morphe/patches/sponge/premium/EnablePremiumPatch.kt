@@ -14,7 +14,6 @@ val enablePremiumPatch = bytecodePatch(
         Compatibility(
             name = "Sponge",
             packageName = "com.prismtree.sponge",
-            // Cosmetic only (patcher UI accent).
             appIconColor = 0x2AB7A9,
             targets = listOf(AppTarget("2.8.0")),
         ),
