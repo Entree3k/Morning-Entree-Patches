@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "patches": [
     {
       "name": "Enable Premium",
@@ -72,6 +72,891 @@
           "targets": [
             {
               "version": "2.8.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Enable Premium",
+      "description": "Unlocks Vocabulary Premium",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.hrd.vocabulary",
+          "name": "Vocabulary",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#C7604F",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "5.5.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock all questions",
+      "description": "Unlocks all exam questions",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.trieudadlovestun.ccna200301",
+          "name": "CCNA 200-301",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.15",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.servicenowsystemadmin",
+          "name": "ServiceNow CSA",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.10",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.sc900",
+          "name": "SC-900",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.10",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.saac02ver3",
+          "name": "AWS SAA-C02",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.18",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.istqbfoundation",
+          "name": "ISTQB Foundation",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.15",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.az104",
+          "name": "AZ-104",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.16",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.pcep3002",
+          "name": "PCEP-30-02",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.9",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.comptiacore1",
+          "name": "CompTIA A+ Core 1",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.11",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.ccnp350401",
+          "name": "CCNP 350-401",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.18",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.sc200exam",
+          "name": "SC-200",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.2",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.cism",
+          "name": "CISM",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.9",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.scsc01",
+          "name": "AWS SCS-C01",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.14",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.ai900exam",
+          "name": "AI-900",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.salesforceadmin",
+          "name": "Salesforce Admin",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.16",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.snowprocore",
+          "name": "SnowPro Core",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.10",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.scor350701",
+          "name": "CCNP SCOR 350-701",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.8",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.comptiacore2",
+          "name": "CompTIA A+ Core 2",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.12",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.az900ver3",
+          "name": "AZ-900",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.23",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.cehv11",
+          "name": "CEH v11",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.20",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.clfc01",
+          "name": "AWS CLF-C01",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.20",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.comptiasecurityplus",
+          "name": "CompTIA Security+",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.16",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.comptiaserverplus",
+          "name": "CompTIA Server+",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.10",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.comptiacysa",
+          "name": "CompTIA CySA+",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.12",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.az500",
+          "name": "AZ-500",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.8",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.comptiasecux",
+          "name": "CompTIA SecurityX",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.pentestplusexam",
+          "name": "CompTIA PenTest+",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.mlac01exam",
+          "name": "AWS MLA-C01",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.3",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.dasm",
+          "name": "DASM",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.9",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.capm",
+          "name": "CAPM",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.8",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.az400",
+          "name": "AZ-400",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.8",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.dp203",
+          "name": "DP-203",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.9",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.pspooneexam",
+          "name": "PSPO I",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.soac02",
+          "name": "AWS SOA-C02",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.9",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.dopc01",
+          "name": "AWS DOP-C01",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.6",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.psm2",
+          "name": "PSM II",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.9",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.az700exam",
+          "name": "AZ-700",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.sapc01",
+          "name": "AWS SAP-C01",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.8",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.gcpassociatecloudengineer",
+          "name": "GCP Associate Cloud Engineer",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.8",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.dp900",
+          "name": "DP-900",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.10",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.comptialinuxplusexam",
+          "name": "CompTIA Linux+",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.2",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.aifc01exam",
+          "name": "AWS AIF-C01",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.pmiacp",
+          "name": "PMI-ACP",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.6",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.comptiaitf",
+          "name": "CompTIA ITF+",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.14",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.dvac01ver3",
+          "name": "AWS DVA-C01",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.12",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.az204ver2022",
+          "name": "AZ-204",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.9",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.dp300",
+          "name": "DP-300",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.6",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.cissp",
+          "name": "CISSP",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.10",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.tableaudesktop",
+          "name": "Tableau Desktop",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.8",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.comptiasecai",
+          "name": "CompTIA SecAI",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.trieudadlovestun.terraform",
+          "name": "Terraform Associate",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#023C69",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.10",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
