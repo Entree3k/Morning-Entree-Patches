@@ -1,12 +1,10 @@
-# 👋🧩 Morphe Patches template
+# Morphe Patches template
 
 Template repository for Morphe Patches.
 
-## ❓ About
+## About
 
 Patches for apps I like.
-
-TODO: Update this about section with a brief introduction/summary about this repo and what it offers.
 
 ## 🩹 Patches list
 
@@ -69,6 +67,10 @@ Or manually add this repository url as a patch source in Morphe: https://github.
 
 To build UserXYZ Patches,
 you can follow the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation).
+
+### Disclaimer
+
+This is for educational purposes, bypassing features of apps is against terms and services
 
 ## 📜 License
 
