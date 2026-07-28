@@ -1,7 +1,173 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "patches": [
+    {
+      "name": "Always incognito mode",
+      "description": "Always opens Gboard in incognito mode to disable typing-history collection and personalization, while keeping clipboard and voice typing working in incognito.",
+      "default": true,
+      "dependencies": [
+        "BytecodePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.google.android.inputmethod.latin",
+          "name": "Gboard",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": null,
+          "signatures": [
+            "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+            "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+          ],
+          "targets": [
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Block tracking and analytics",
+      "description": "Redirects Gboard's known tracking, analytics, and ad host literals to 0.0.0.0 using a built-in blocklist. Note: telemetry sent through Google Play Services is not affected; use the always-incognito patch for that.",
+      "default": false,
+      "dependencies": [
+        "BytecodePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.google.android.inputmethod.latin",
+          "name": "Gboard",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": null,
+          "signatures": [
+            "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+            "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+          ],
+          "targets": [
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "key": "isWildcard",
+          "title": "Wildcard blocking",
+          "description": "When enabled, an entry like \"example.com\" also blocks subdomains such as \"www.example.com\".",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        }
+      ]
+    },
+    {
+      "name": "Change package name",
+      "description": "Installs Gboard as a clone by appending \".clone\" to the package name (configurable), so it installs next to the stock Gboard. Changing an app's package name can lead to unexpected issues.",
+      "default": false,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.google.android.inputmethod.latin",
+          "name": "Gboard",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": null,
+          "signatures": [
+            "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+            "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+          ],
+          "targets": [
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "key": "packageName",
+          "title": "Package name",
+          "description": "The package name to rename the app to. \"Default\" appends \".clone\".",
+          "required": true,
+          "type": "kotlin.String",
+          "default": "Default",
+          "values": {
+            "Default": "Default"
+          }
+        },
+        {
+          "key": "updatePermissions",
+          "title": "Update permissions",
+          "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but can also break features in certain apps.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
+        {
+          "key": "updateOtherPermissions",
+          "title": "Update other permissions",
+          "description": "Update other permissions declared by the app. Enabling this can fix installation errors, but can also break features in certain apps.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
+        {
+          "key": "updateProviders",
+          "title": "Update content providers",
+          "description": "Update content provider URI authorities. Enabling this can fix installation errors, but can also break features in certain apps.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        }
+      ]
+    },
+    {
+      "name": "Enable Premium",
+      "description": "Unlocks Gradient Weather Premium (forces the paid Lifetime tier).",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.subtlesignals.gradientweather",
+          "name": "Gradient Weather",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#6C7BFF",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.1.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
     {
       "name": "Enable Premium",
       "description": "Unlock Lifesum Premium",
@@ -107,6 +273,30 @@
         }
       ],
       "options": []
+    },
+    {
+      "name": "Spoof install source",
+      "description": "Makes the app think it was installed from a specific store (default: Google Play). Useful when an app blocks features or errors because it detects it was not installed from the Play Store. Only affects what the app sees, not the real system record.",
+      "default": false,
+      "dependencies": [],
+      "compatiblePackages": null,
+      "options": [
+        {
+          "key": "installerPackageName",
+          "title": "Store to impersonate",
+          "description": "Most apps only check for the Google Play Store, so the default is usually correct. Pick from the list, or type any package name directly.",
+          "required": true,
+          "type": "kotlin.String",
+          "default": "com.android.vending",
+          "values": {
+            "Google Play Store": "com.android.vending",
+            "Samsung Galaxy Store": "com.sec.android.app.samsungapps",
+            "Huawei AppGallery": "com.huawei.appmarket",
+            "Amazon Appstore": "com.amazon.venezia",
+            "F-Droid": "org.fdroid.fdroid"
+          }
+        }
+      ]
     },
     {
       "name": "Unlock all questions",
