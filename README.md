@@ -1,6 +1,6 @@
 # Morphe Patches template
 
-Template repository for Morphe Patches.
+[Morning Entree Patches by Entree3k](https://morphe.software/add-source?github=Entree3k/Morning-Entree-Patches)
 
 ## About
 
