@@ -16,14 +16,13 @@ import java.util.logging.Logger
 @Suppress("unused")
 val enablePremiumPatch = bytecodePatch(
     name = "Enable Premium",
-    description = "Unlocks Gradient Weather Premium (forces the paid Lifetime tier).",
+    description = "Unlocks Gradient Weather Premium. Use With Spoof Install Source",
 ) {
     compatibleWith(Constants.COMPATIBILITY)
 
     execute {
         val logger = Logger.getLogger(this::class.java.name)
 
-        // Primary gate: "is_lifetime"/"is_premium" prefs to read true
         InitSubscriptionTierFingerprint.method.apply {
             val insns = instructions.toList()
             val stringIndex = insns.indexOfFirst {
@@ -32,7 +31,6 @@ val enablePremiumPatch = bytecodePatch(
             if (stringIndex < 0) {
                 throw PatchException("Could not find the is_lifetime pref read in the constructor.")
             }
-            // The boolean result of getBoolean("is_lifetime", false)
             val moveResultIndex = ((stringIndex + 1) until insns.size).firstOrNull {
                 insns[it].opcode == Opcode.MOVE_RESULT
             } ?: throw PatchException("Could not find the is_lifetime getBoolean result.")
