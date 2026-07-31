@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "patches": [
     {
       "name": "Always incognito mode",
@@ -344,6 +344,34 @@
           "targets": [
             {
               "version": "1.596",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Enable Premium",
+      "description": "Unlocks Phi Launcher Pro",
+      "default": true,
+      "dependencies": [
+        "BytecodePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.launcher.hype",
+          "name": "Phi Launcher",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#6C63FF",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "3.5.1",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,

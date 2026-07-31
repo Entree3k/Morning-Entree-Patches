@@ -1,3 +1,9 @@
+## [1.6.0](https://github.com/Entree3k/Morning-Entree-Patches/compare/v1.5.0...v1.6.0) (2026-07-31)
+
+### ✨ New Features
+
+* Added Phi Launcher ([7c622fb](https://github.com/Entree3k/Morning-Entree-Patches/commit/7c622fb7c1001e1b8770ff971dff66ce6b0ce473))
+
 ## [1.5.0](https://github.com/Entree3k/Morning-Entree-Patches/compare/v1.4.0...v1.5.0) (2026-07-30)
 
 ### ✨ New Features
