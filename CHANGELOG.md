@@ -1,3 +1,9 @@
+## [1.7.0](https://github.com/Entree3k/Morning-Entree-Patches/compare/v1.6.0...v1.7.0) (2026-08-03)
+
+### ✨ New Features
+
+* Added Boosted and Todo Mate ([6312ee3](https://github.com/Entree3k/Morning-Entree-Patches/commit/6312ee3f4975c79523254f6089208eaf21acb4fb))
+
 ## [1.6.0](https://github.com/Entree3k/Morning-Entree-Patches/compare/v1.5.0...v1.6.0) (2026-07-31)
 
 ### ✨ New Features
