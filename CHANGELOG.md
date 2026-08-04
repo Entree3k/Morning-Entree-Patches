@@ -1,3 +1,9 @@
+## [1.8.0](https://github.com/Entree3k/Morning-Entree-Patches/compare/v1.7.0...v1.8.0) (2026-08-04)
+
+### ✨ New Features
+
+* Added Listy, Super Status Bar, Volume Styles ([a489b0b](https://github.com/Entree3k/Morning-Entree-Patches/commit/a489b0bc37f1f17a9bffe4212053eb63784dff37))
+
 ## [1.7.0](https://github.com/Entree3k/Morning-Entree-Patches/compare/v1.6.0...v1.7.0) (2026-08-03)
 
 ### ✨ New Features
