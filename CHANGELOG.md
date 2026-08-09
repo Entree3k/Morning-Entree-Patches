@@ -1,3 +1,9 @@
+## [1.10.0](https://github.com/Entree3k/Morning-Entree-Patches/compare/v1.9.0...v1.10.0) (2026-08-09)
+
+### ✨ New Features
+
+* Added Paisa ([825ea8e](https://github.com/Entree3k/Morning-Entree-Patches/commit/825ea8edfc0ace2e417b05fd2c1605a13de3766f))
+
 ## [1.9.0](https://github.com/Entree3k/Morning-Entree-Patches/compare/v1.8.0...v1.9.0) (2026-08-08)
 
 ### ✨ New Features
