@@ -1,3 +1,13 @@
+## [1.11.0](https://github.com/Entree3k/Morning-Entree-Patches/compare/v1.10.0...v1.11.0) (2026-08-09)
+
+### 🐛 Bug Fixes
+
+* Removed Patch ([0adf49c](https://github.com/Entree3k/Morning-Entree-Patches/commit/0adf49c6d9645cb2e12333044d448798a1fd83fc))
+
+### ✨ New Features
+
+* added gps faker ([5c7a07a](https://github.com/Entree3k/Morning-Entree-Patches/commit/5c7a07a1800ce28bf3ff1762982bc3ba1f69e41f))
+
 ## [1.10.0](https://github.com/Entree3k/Morning-Entree-Patches/compare/v1.9.0...v1.10.0) (2026-08-09)
 
 ### ✨ New Features
