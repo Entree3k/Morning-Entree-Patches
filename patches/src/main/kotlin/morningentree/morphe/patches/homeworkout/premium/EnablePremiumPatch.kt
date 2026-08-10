@@ -9,7 +9,7 @@ private const val STRING = "Ljava/lang/String;"
 @Suppress("unused")
 val enablePremiumPatch = bytecodePatch(
     name = "Enable Premium",
-    description = "Unlocks Home Workout Premium",
+    description = "Unlocks Home Workout Premium. Use with Spoof Signature Verification",
 ) {
     compatibleWith(Constants.COMPATIBILITY)
 
