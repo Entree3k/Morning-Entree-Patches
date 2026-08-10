@@ -1,3 +1,9 @@
+## [1.12.0](https://github.com/Entree3k/Morning-Entree-Patches/compare/v1.11.0...v1.12.0) (2026-08-10)
+
+### ✨ New Features
+
+* Added Home Workout ([42f7cb1](https://github.com/Entree3k/Morning-Entree-Patches/commit/42f7cb159a07146a1eb15b19cc522bb421b04d6e))
+
 ## [1.11.0](https://github.com/Entree3k/Morning-Entree-Patches/compare/v1.10.0...v1.11.0) (2026-08-09)
 
 ### 🐛 Bug Fixes
