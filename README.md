@@ -4,7 +4,7 @@
 
 ## About
 
-Patches for apps I like.
+Patches for learning
 
 ## 🩹 Patches list
 
