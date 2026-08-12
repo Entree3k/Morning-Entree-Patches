@@ -1,3 +1,9 @@
+## [1.15.0](https://github.com/Entree3k/Morning-Entree-Patches/compare/v1.14.0...v1.15.0) (2026-08-12)
+
+### ✨ New Features
+
+* Added Support ([f4c1e5d](https://github.com/Entree3k/Morning-Entree-Patches/commit/f4c1e5d154e30f0374bede6faea0769cf704ec25))
+
 ## [1.14.0](https://github.com/Entree3k/Morning-Entree-Patches/compare/v1.13.0...v1.14.0) (2026-08-10)
 
 ### ✨ New Features
