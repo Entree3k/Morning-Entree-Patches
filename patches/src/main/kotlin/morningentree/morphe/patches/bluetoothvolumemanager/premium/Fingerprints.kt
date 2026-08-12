@@ -5,7 +5,7 @@ import app.morphe.patcher.fieldAccess
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
 
-val InfoConstructorFingerprint = Fingerprint(
+internal object InfoConstructorFingerprint : Fingerprint(
     definingClass = "Leu/darken/bluemusic/upgrade/core/UpgradeRepoGplay\$Info;",
     name = "<init>",
     returnType = "V",
