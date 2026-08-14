@@ -9,7 +9,7 @@ private const val CONTEXT = "Landroid/content/Context;"
 @Suppress("unused")
 val enablePremiumPatch = bytecodePatch(
     name = "Enable Premium",
-    description = "Unlocks Six Pack in 30 Days premium — removes ads and unlocks all workouts and plans.",
+    description = "Unlocks Premium",
 ) {
     compatibleWith(Constants.COMPATIBILITY)
 
