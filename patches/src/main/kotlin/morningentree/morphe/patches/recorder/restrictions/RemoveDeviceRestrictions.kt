@@ -4,7 +4,6 @@ import app.morphe.patcher.extensions.InstructionExtensions.addInstruction
 import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
 import app.morphe.patcher.extensions.InstructionExtensions.instructions
 import app.morphe.patcher.extensions.InstructionExtensions.instructionsOrNull
-import app.morphe.patcher.extensions.InstructionExtensions.removeInstructions
 import app.morphe.patcher.patch.BytecodePatchContext
 import app.morphe.patcher.patch.PatchException
 import app.morphe.patcher.patch.bytecodePatch
@@ -66,11 +65,20 @@ val removeDeviceRestrictionsPatch = bytecodePatch(
             )
         }
 
-        val featureAvailableRegister =
-            method.getInstruction<OneRegisterInstruction>(featureStringIndex).registerA
+        val moveResultIndex =
+            method.instructions.toList().withIndex()
+                .firstOrNull { (index, instruction) ->
+                    index > featureStringIndex && instruction.opcode == Opcode.MOVE_RESULT
+                }?.index
+                ?: throw PatchException(
+                    "Remove device restrictions: could not find the hasSystemFeature result after " +
+                        "the Pixel feature const-string.",
+                )
 
-        method.removeInstructions(featureStringIndex - 2, 5)
-        method.addInstruction(featureStringIndex, "const/4 v$featureAvailableRegister, 0x1")
+        val resultRegister =
+            method.getInstruction<OneRegisterInstruction>(moveResultIndex).registerA
+
+        method.addInstruction(moveResultIndex + 1, "const/16 v$resultRegister, 0x1")
     }
 }
 

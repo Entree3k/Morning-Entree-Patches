@@ -8,6 +8,6 @@ internal object Constants {
         name = "Photon Camera",
         packageName = "com.hinnka.mycamera",
         appIconColor = 0x252525,
-        targets = listOf(AppTarget("1.25.1.1")),
+        targets = listOf(AppTarget("1.26.1.1")),
     )
 }
